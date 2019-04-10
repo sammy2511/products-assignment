@@ -111,7 +111,7 @@ class Product extends Component {
         <div className="form-row">
           <div className="form-group col-md-6">
             <label >Availablity</label>
-            <input type="number" className="form-control" id="prod-avail" name="availability" value={this.state.availability} onChange={(e) => this.change(e)} placeholder="Availablity" required/>
+            <input type="number" className="form-control" id="prod-avail" name="availability" value={this.state.availability} onChange={(e) => this.change(e)} placeholder="Availablity"/>
           </div>
           <div className="form-group col-md-6">
             <label >Product Url</label>
